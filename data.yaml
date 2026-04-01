@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['Luffy', 'Nami', 'NicoRobin', 'Usopp', 'Zoro', 'sanji']
+
+roboflow:
+  workspace: trabelsis-workspace-kurma
+  project: one-piece-eyhhn
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/trabelsis-workspace-kurma/one-piece-eyhhn/dataset/3
